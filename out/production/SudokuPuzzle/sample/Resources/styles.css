@@ -1,0 +1,50 @@
+.pane{
+    -fx-hgap: 0;
+    -fx-vgap: 0;
+    -fx-padding: 0 10 0 10;
+    -fx-background-color: white;
+    -fx-alignment: center;
+}
+
+.tile-pane{
+    -fx-hgap: 10;
+    -fx-alignment: center;
+    -fx-padding: 5 0 10 0;
+}
+
+.text-field{
+    -fx-background-insets: 0;
+    -fx-border-style: solid;
+    -fx-border-width: 0.5px;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+.menu-bar{
+    -fx-background-color: white;
+}
+
+.button{
+    -fx-pref-width: 100;
+    -fx-background-color:
+            #707070,
+            linear-gradient(#fcfcfc, #f3f3f3),
+            linear-gradient(#f2f2f2 0%, #ebebeb 49%, #dddddd 50%, #cfcfcf 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 10 3 10;
+    -fx-text-fill: black;
+    -fx-font-size: 10px;
+}
+
+#rightsubgrid{
+    -fx-border-width: 0.5 2 0.5 0.5;
+}
+
+#bottomsubgrid{
+    -fx-border-width: 0.5 0.5 2 0.5;
+}
+
+#cornersubgrid{
+    -fx-border-width: 0.5 2 2 0.5;
+}
